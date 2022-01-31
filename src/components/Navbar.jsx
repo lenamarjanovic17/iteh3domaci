@@ -10,7 +10,7 @@ export default function Navbar() {
             <NavLink to='/' className='nav-link'>Grafik</NavLink>
           </li>
           <li className="nav-item mx-auto">
-            <NavLink to='/mnozenje' className='nav-link'>Kalkulator</NavLink>
+            <NavLink to='/kalkulator' className='nav-link'>Kalkulator</NavLink>
           </li>
         </ul>
       </div>
