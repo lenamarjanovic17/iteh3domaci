@@ -20,11 +20,9 @@ export function Polje({ naziv, value, onChange }) {
   return (
     <div className='d-flex align-items-center'>
       <label className='mr-4'>{naziv}</label>
-      <input type="text" value={value} onChange={e => {
+      <input type="number" value={value} onChange={e => {
         const value = Number(e.target.value);
-        if (isNaN(value)) {
-          return;
-        }
+
         onChange(value);
       }} />
     </div>
