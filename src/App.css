@@ -42,13 +42,13 @@
   height: 75vh;
   margin-top: 40px;
 }
-.xOsa {
+.yOsa {
   position: absolute;
   height: 100%;
   left: 50%;
   border-left: 1px black solid;
 }
-.yOsa {
+.xOsa {
   position: absolute;
   height: 50%;
   width: 100%;

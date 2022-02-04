@@ -33,16 +33,14 @@ export default function GrafikStrana() {
           <div className='yOsa'></div>
           {
             generisiTacke().filter(tacka => {
-              const x = 50 + tacka.x * 5;
               const y = 50 + tacka.y * 5
-              return x >= 0 && x <= 99 && y >= 0 && y <= 99
+              return y >= 0 && y < 100
             }).map(tacka => {
               return (
                 <div className='tacka' style={{
                   left: `${50 + tacka.x * 5}%`,
                   bottom: `${50 + tacka.y * 5}%`
                 }}>
-
                 </div>
               )
             })
